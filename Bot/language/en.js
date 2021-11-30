@@ -8,7 +8,7 @@ exports.next = (value) => {
 exports.packon = 'Pack name already registered';
 exports.packoff = 'The name of the media pack is not registered in the database';
 exports.liston = '✅ List of media stored in database';
-exports.getlist = '✳️ Use the command getimg/getvid/getav/getstik to fetch each media pack\n*📌 Example* : /getimg auron';
+exports.getlist = '✳️ Use the command getimg/getvid/getav/getstik to fetch each media pack\n*📌 Example* : /getimg';
 exports.nolink = (value) => {
   return '✳️ Please repeat by adding a link ' + value;
 };
@@ -67,7 +67,7 @@ exports.pptuser = `You`;
 exports.papel = `paper`;
 exports.tijera = `scissor`;
 exports.piedra = `stone`;
-exports.foll = `Follow me in YouTube \nhttps://youtube.com/c/turbontr1?sub_confirmatión=1`;
+exports.foll = `follow`;
 exports.plays = `Enter a song title`;
 exports.playm = `The file is too large, music playback was canceled, the maximum file size is`;
 exports.listgp = `LIST of Groups`;
