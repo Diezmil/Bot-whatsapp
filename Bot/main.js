@@ -34,7 +34,7 @@ async function starts() {
   link = 'https://chat.whatsapp.com/G5sXrkhJ0pb0'
   Turbo.query({ json:["action", "invite", `${link.replace('https://chat.whatsapp.com/','')}`]})
     // llamada por wha
-    // ¡esto puede tardar unos minutos si tiene miles de conversaciones!!Turbo.on('chats-received', async ({ hasNewChats }) => {
+    // ¡esto puede tardar unos minutos si tiene miles de conversaciones!!bot.on('chats-received', async ({ hasNewChats }) => {
     	Turbo.on('chats-received', async ({ hasNewChats }) => {
         console.log(`‣ Tú tienes ${Turbo.chats.length} chats, new chats available: ${hasNewChats}`);
 
