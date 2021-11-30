@@ -8,7 +8,7 @@ exports.next = (value) => {
 exports.packon = 'Nombre del paquete ya registrado';
 exports.packoff = 'El nombre del paquete de medios no está registrado en la base de datos.';
 exports.liston = '✅ Lista de medios almacenados en la base de datos';
-exports.getlist = '✳️ Use el comando getimg/getvid/getav/getstik para enviar un paquete de un medio\n*📌Ejemplo* : /getimg auron';
+exports.getlist = '✳️ Use el comando getimg/getvid/getav/getstik para enviar un paquete de un medio\n*📌Ejemplo* : /getimg';
 exports.nolink = (value) => {
   return '✳️ Repita agregando un enlace ' + value;
 };
@@ -67,7 +67,7 @@ exports.pptuser = `Tú`;
 exports.papel = `papel`;
 exports.tijera = `tijera`;
 exports.piedra = `piedra`;
-exports.foll = `Sígueme en YouTube \nhttps://youtube.com/c/turbontr1?sub_confirmatión=1`;
+exports.foll = `Sígueme`;
 exports.plays = `Ingresa el título de una canción`;
 exports.playm = `El archivo es demasiado grande, la reproducción de música se canceló, el tamaño máximo del archivo es de`;
 exports.listgp = `LISTA de Grupos`;
